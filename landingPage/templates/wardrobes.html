@@ -1,0 +1,20 @@
+{% extends "landing-page1.html" %}
+
+{#{% block counter %}#}
+{#    {% for cart in cart_data %}#}
+{#        <p class="cart-number"> <input type="text" value='{{cart.number}}' id="cart-number-alignment"></p>#}
+{#    {%endfor %}#}
+{#{% endblock counter %}#}
+    {% block content %}
+        <div class="row images-alignment">
+{#          {% for i in rc %}#}
+            {% for details in image_details %}
+                <div class="row" >
+                    <img src='{{ details.url }}' class="image-style">
+                    <div class="add-cart-button"><p class="add-to-cart-text">Add to Cart!</p></div>
+{#                    <div class="Remove-cart-button"><p class="add-to-cart-text">Remove to Cart!</p></div>#}
+                </div>
+            {% endfor %}
+{#          {% endfor %}#}
+        </div>
+    {% endblock %}

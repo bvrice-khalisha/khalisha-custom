@@ -1,0 +1,94 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-lineremover' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.34
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json grunt-getting-started@0.1.0 No description
+6 warn package.json grunt-getting-started@0.1.0 No repository field.
+7 warn package.json grunt-getting-started@0.1.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'grunt-lineremover', null ]
+10 verbose cache add name=undefined spec="grunt-lineremover" args=["grunt-lineremover",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'grunt-lineremover',
+11 verbose parsed url   path: 'grunt-lineremover',
+11 verbose parsed url   href: 'grunt-lineremover' }
+12 silly lockFile ddc3079e-grunt-lineremover grunt-lineremover
+13 verbose lock grunt-lineremover C:\Users\Khali\AppData\Roaming\npm-cache\ddc3079e-grunt-lineremover.lock
+14 silly lockFile ddc3079e-grunt-lineremover grunt-lineremover
+15 silly lockFile ddc3079e-grunt-lineremover grunt-lineremover
+16 verbose addNamed [ 'grunt-lineremover', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile cbfa1fb6-grunt-lineremover grunt-lineremover@
+19 verbose lock grunt-lineremover@ C:\Users\Khali\AppData\Roaming\npm-cache\cbfa1fb6-grunt-lineremover.lock
+20 silly addNameRange { name: 'grunt-lineremover', range: '*', hasData: false }
+21 verbose request where is /grunt-lineremover
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 9e3a402f49d28e5e
+24 verbose url raw /grunt-lineremover
+25 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-lineremover' ]
+26 verbose url resolved https://registry.npmjs.org/grunt-lineremover
+27 verbose request where is https://registry.npmjs.org/grunt-lineremover
+28 info trying registry request attempt 1 at 13:09:55
+29 http GET https://registry.npmjs.org/grunt-lineremover
+30 info retry will retry, error on last attempt: Error: socket hang up
+31 info trying registry request attempt 2 at 13:11:10
+32 http GET https://registry.npmjs.org/grunt-lineremover
+33 http 404 https://registry.npmjs.org/grunt-lineremover
+34 verbose headers { date: 'Mon, 29 Dec 2014 07:41:24 GMT',
+34 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+34 verbose headers   'content-type': 'application/json',
+34 verbose headers   'cache-control': 'max-age=0',
+34 verbose headers   'content-length': '52',
+34 verbose headers   'accept-ranges': 'bytes',
+34 verbose headers   via: '1.1 varnish',
+34 verbose headers   age: '0',
+34 verbose headers   'x-served-by': 'cache-sn86-SIN',
+34 verbose headers   'x-cache': 'MISS',
+34 verbose headers   'x-cache-hits': '0',
+34 verbose headers   'x-timer': 'S1419838884.372274,VS0,VE254',
+34 verbose headers   'keep-alive': 'timeout=10, max=50',
+34 verbose headers   connection: 'Keep-Alive' }
+35 silly registry.get cb [ 404,
+35 silly registry.get   { date: 'Mon, 29 Dec 2014 07:41:24 GMT',
+35 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+35 silly registry.get     'content-type': 'application/json',
+35 silly registry.get     'cache-control': 'max-age=0',
+35 silly registry.get     'content-length': '52',
+35 silly registry.get     'accept-ranges': 'bytes',
+35 silly registry.get     via: '1.1 varnish',
+35 silly registry.get     age: '0',
+35 silly registry.get     'x-served-by': 'cache-sn86-SIN',
+35 silly registry.get     'x-cache': 'MISS',
+35 silly registry.get     'x-cache-hits': '0',
+35 silly registry.get     'x-timer': 'S1419838884.372274,VS0,VE254',
+35 silly registry.get     'keep-alive': 'timeout=10, max=50',
+35 silly registry.get     connection: 'Keep-Alive' } ]
+36 silly lockFile cbfa1fb6-grunt-lineremover grunt-lineremover@
+37 silly lockFile cbfa1fb6-grunt-lineremover grunt-lineremover@
+38 error 404 404 Not Found: grunt-lineremover
+38 error 404
+38 error 404 'grunt-lineremover' is not in the npm registry.
+38 error 404 You should bug the author to publish it
+38 error 404 It was specified as a dependency of 'grunt-getting-started'
+38 error 404
+38 error 404 Note that you can also install from a
+38 error 404 tarball, folder, or http url, or git url.
+39 error System Windows_NT 6.2.9200
+40 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-lineremover"
+41 error cwd E:\landing-page\landingPage\static\js
+42 error node -v v0.10.34
+43 error npm -v 1.4.28
+44 error code E404
+45 verbose exit [ 1, true ]

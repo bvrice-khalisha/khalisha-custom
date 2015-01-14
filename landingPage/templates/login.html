@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Please login</title>
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/mainsite.css">
+</head>
+<body>
+
+    <h1>wardrobe images</h1>
+    <div class="row" >
+        {% for details in image_details %}
+{#        {{ details.id }}#}
+        <img src='{{ details.url }}' style="max-width:300px;min-height: 300px">
+    {% endfor %}
+    </div>
+
+
+    {#<div class="login-align">#}
+{#  <p>username <input type="text"></p>#}
+{#  <p>password <input type="password"></p>#}
+{#  <p id="buttonAlignment" ><a href="success" ><input type="button" value="submit" ></a></p>#}
+{#</div>#}
+
+</body>
+</html>

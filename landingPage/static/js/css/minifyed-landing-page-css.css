@@ -1,0 +1,1269 @@
+
+@font-face {
+    font-family:'Josefin Sans' ;
+    src: url(../Josefin_Sans/JosefinSans-Regular.ttf);
+    font-weight: 600;
+}
+.header {
+    background-color:#f5f5f5;
+}
+
+#small-logo{
+    position: absolute;
+    height: 32px;
+    width: 41px;
+    left: 64px;
+    display:none;
+}
+#wardrobe-drop-down{
+    margin-top:10px;
+    padding-top: 10px;
+    background-color: white;
+    height: 300px;
+    width: 80%;
+    float: left;
+    left: 130px;
+    position: absolute;
+    z-index: 1;
+}
+
+body{
+    font-family: 'Josefin Sans';
+}
+#headerColour{
+    background-color:#f5f5f5;
+    padding-bottom: 3px;
+
+}
+.right-logos-style{
+    width:22px;
+    height: 22px;
+}
+#rightLogoPadding{
+    padding-right: 10px;
+}
+#listAlignment{
+    padding-top: 5px;
+    margin: 0;
+}
+.logo-padding{
+    padding-top: 3px;
+}
+#firstrow{
+    padding-left:0;
+    padding-top:2px;
+    padding-right:0;
+    padding-bottom:0;
+    background-color: #EEEEEE;
+    width: 100%;
+    max-width:100%;
+}
+.contact-information {
+    padding-left: 20px;
+    font-size: 11px;
+    font-style: normal;
+    color: #444444;
+    padding-right: 10px;
+    border-right: solid 1px black;
+}
+#contactImage {
+    position: absolute;
+    top: 11px;
+    width: 12px;
+    height: 12px;
+}
+#emailImage {
+    position: absolute;
+    top: 11px;
+    left: 139px;
+    width: 12px;
+    height: 12px;
+}
+.email {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    font-size: 12px;
+    font-style: normal;
+    color: #444444;
+    padding: 0;
+}
+.help-button{
+    padding-left: 20px;
+    font-size: 12px;
+    font-style: normal;
+    color: #444444;
+    padding-right: 10px;
+    border-right: solid 1px black;
+}
+.create-account-button{
+    font-size: 12px;
+    font-style: normal;
+    color: #444444;
+    padding-right: 10px;
+}
+#rightLogos{
+    padding-top: 2px;
+    float: right;
+}
+#logo {
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 9px;
+    border-bottom: solid 1px #EEEEEE;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#logoTagLine{
+    padding-top: 2px;
+    text-align: center;
+    font-size:12px;
+    font-style:normal;
+    font-family: "Josefin Sans";
+    color:#444444;
+    padding-bottom: 10px;
+}
+.right-logo-padding{
+    padding-left:10px;
+}
+.right-logo-alignment{
+    float: right;
+    margin-right: 125px;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.counter-logo-alignment
+{
+    position: absolute;
+    right: 123px;
+    top: 20px;
+}
+#navBarColour{
+    background-color: #fbfbfb;
+    border-bottom: solid 2px #F00000;
+    padding-bottom: 5px;
+}
+#nav-start{
+    padding-left: 5px;
+}
+#nav-end{
+    padding-right: 3px;
+    padding-left: 22px;
+}
+#rightLogos >ul {
+
+    margin: 0;
+    float:right;
+}
+#main-image-size{
+    width: 100%;
+    height:auto;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding:0 ;
+}
+p{
+    margin-bottom: 0 !important;
+}
+.nav-alignment{
+    color: #444444;
+    display: inline;
+    width: 126px;
+    height: 19px;
+    text-align: left;
+    padding-right: 37px;
+    font-size: 14px;
+    font-style: normal;
+
+}
+.nav-alignment{
+    color: #444444;
+    display: inline;
+    width: 126px;
+    height: 19px;
+    text-align: left;
+    padding-right: 48px;
+    font-size: 12px;
+    font-style: normal;
+}
+#nav > li a:hover{
+    color: red !important;
+}
+#nav{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0;
+}
+
+.row{
+    margin: 0;
+    max-width: 100%;
+}
+.small-screen-size {
+    text-align: center;
+    height: 520px;
+    width: 257px;
+    background-color: rgba(24, 22, 22, .40);
+    position: absolute;
+    top: 10px;
+    left: 6%;
+}
+#boldText{
+    font-weight: bold;
+}
+.the-online-text-on-transparent-screen {
+    padding-top: 130px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    text-align: center
+}
+.custom-made-text-on-transparent-screen {
+    font-size: 27px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: "Josefin Sans";
+}
+.furniture-store-text-on-transparent-screen {
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    text-align: center;
+}
+.txtonshopnow{
+    padding-top: 6px !important;
+    color:#ffffff;
+}
+#showNowButton:hover{
+    background-color: red;
+}
+#showNowButton {
+    background-color: #535353;
+    width: 185px;
+    height: 36px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    top: 78px;
+    border-color: white;
+    border-radius: 3px;
+    boreder-width: 12px;
+    margin-bottom: 0;
+}
+.mainimg{
+    padding-top: 10px;
+    width:100%;
+    height:488px;
+    max-width:100%;
+}
+.build-your-text {
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    color: #FE4d4d;
+    padding-top: 40px;
+}
+#transparentScreenAlignment
+{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:100%;
+}
+#designStudioText
+{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.designStudioTextAlignment {
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    color: #525252;
+    font-style: italic;
+    padding-bottom: 40px;
+    padding-top: 5px;
+
+}
+#blackBarHeight{
+    height: 225px;
+}
+.black-bar{
+    text-align: center;
+    height: 200px;
+    background:#444444;
+}
+.text-on-black-bar{
+    height: 43px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family:"Josefin Sans";
+    font-style: italic;
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 30px;
+    padding-bottom: 90px;
+    margin: 0;
+}
+.designnowbar{
+    text-align: center;
+    height: 36px;
+    background: #535353;
+    position: relative;
+    top: 37%;
+    left: 44%;
+    width: 185px;
+}
+.txtondesignnowbar {
+    padding-top: 6px !important;
+    color:#ffffff;
+}
+#showNowButton:hover{
+    background-color: red;
+}
+#designNowButton:hover{
+    background-color: red;
+}
+#designNowButton{
+    background-color: #444444;
+    border-color: white;
+    border-radius: 3px;
+    width: 256px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.view-more-alignment{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #EEEEEE;
+}
+.view-more-text{
+    color: #444444;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: underline;
+}
+button:hover{
+    background-color:transparent;
+}
+.smooth-scroll-arrow{
+    background-color: white;
+    border-color: white;
+    border-radius:3px;
+    width: 120px;"
+}
+#textAlignmentRight{
+    float:right;
+}
+.item{
+    text-align: center;
+}
+.footer-logo-padding{
+    padding-top: 30px;
+}
+#footerDetails{
+    padding: 0;
+    font-family: Myriad Pro;
+    font-size: 13px;
+}
+.link-text{
+    font-family: arial;
+}
+.objects{
+    padding-top: 40px;
+}
+.item-region {
+    font-size: 24px;
+    color: #545454;
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.text-of-items{
+    font-size: 19px;
+    color: #000000;
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    padding-top: 10px;
+    text-align: center;
+}
+.item-price {
+    padding-top: 33px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Josefin Sans";
+    padding-bottom: 48px;
+    color: #FE4d4d;
+    text-align: center;
+}
+#showNowButton:hover{
+    background-color: red;
+}
+.items-shop-now-button:hover{
+    background-color: red;
+}
+.items-shop-now-button{
+    border-color: white;
+    border-radius: 0;
+    width: 200px;
+    left: 32px;
+    height: 40px;
+    font-size: 12px;
+    background-color: #444444;
+}
+.items-customize-button:hover{
+    background-color: red;
+}
+.items-customize-button{
+    border-color: white;
+    border-radius: 0;
+    width: 200px;
+    left: 80px;
+    height: 40px;
+    font-size: 12px;
+    background-color: #444444;
+
+}
+.footerlogoTagLineText{
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+    padding-bottom: 30px;
+
+}
+.footertag {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    color:#FF4d4d;
+
+}
+#gridUnderline{
+    border-bottom: solid 1px #EEEEEE;
+}
+#contactImagesAlignment{
+    margin: 0;
+}
+.item-text-alignment{
+    margin-top: 40px;
+}
+.section-title {
+    text-align: center;
+    border-bottom: 7px solid transparent;
+    border-top: 0;
+    padding: 0 0 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #535353;
+    margin-top: 20px;
+}
+.section-title>a {
+    font-size: 24px;
+    font-weight: 700;
+    color: #535353;
+}
+#reviewtag >p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+#footerLogos >li > p{
+    display: inline;
+    height: 21px;
+    color: #666666;
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: bold;
+
+}
+#owl-demo .item img{
+    text-align: center;
+    height: auto;
+}
+
+.owl-buttons{
+    display: none;
+}
+.user-comment{
+    margin-top: 83px;
+    margin-left: 8px;
+    margin-right: 48px;
+    font-size: 12px;
+    font-style: italic;
+    font-family: myriad pro;
+    color: #006666;
+}
+.signup-screen{
+    text-align: center;
+    height: 163px;
+    width: 400px;
+    background: #f5f5f5;
+    position: absolute;
+    top: 50px;
+    right: 1%;
+    opacity: 20;
+}
+.link-text{
+    font-family: arial;
+    color: #888a8c;
+}
+.text-on-signup-screen{
+    padding-top: 20px;
+    height: 30px;
+    font-size: 12px;
+    color: #444444;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    text-align: center;
+}
+.signup{
+    position: absolute;
+    height: 30px;
+    width: 134px;
+    top: 0px;
+    right: 273px;
+    display: inline;
+    background-color: #f66f6f;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    border: none;
+}
+#noSpam{
+
+    padding-top: 67px;
+    text-align: left;
+    padding-left: 20px;
+    color: #888a8c;
+    font-size: 11px;
+
+}
+.get-estimation-button:hover{
+    background-color: red;
+}
+.get-estimation-button{
+    background-color: #444444;
+    border-color: white;
+    width: 180px;
+    left: 175px;
+    height: 40px;
+    font-size: 12px;
+}
+.user-images{
+    float:left;
+    width:40px ;
+    height:40px;
+}
+#shippingPadding{
+    padding-top: 12px;
+}
+#signupAlignment{
+    display: inline;
+}
+#signupBoxAlignment{
+    margin-top: 110px;
+    text-align: left;
+    width: 500px;
+    margin-left: 200px;
+}
+.slider-padding{
+    padding-top: 30px;
+}
+#last-tag-line{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+#rightsReservedLine{
+    color: #444444;
+    font-size: 13px;
+    font-family: "Josefin Sans";
+}
+.user-images{
+    margin-top: 30px;
+}
+.user-name{
+    font-size: 12px;
+    padding-top: 37px;
+    font-family: myriad pro;
+    color: #525252;
+    float: left;
+    font-style: italic;
+}
+.user-designation span {
+    padding-top: 10px;
+    font-size: 17px;
+    vertical-align:top;
+}
+.user-designation{
+    font-size: 12px;
+    padding-top: 5px;
+    font-family: myriad pro;
+    color: #525252;
+    float: left;
+    padding-left: 10px;
+    font-style: italic;
+}
+.user-name-style{
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+}
+#viewport {
+    width: 250px;
+    padding-top: 20px;
+    position: relative;
+}
+#viewport img {
+    position: absolute;
+    left:10px;
+}
+#viewport span {
+    margin-left: 41px;
+    display: block;
+}
+.user-images {
+    margin-right: 20px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.signup:hover{
+    background-color: red;
+}
+#supportpadding{
+    padding-left: 50px;
+}
+#leadTimePadding{
+    padding-left: 30px;
+}
+#smallScreenLogo{
+    width: 150px;
+    height: 30px;
+}
+#smallScreenBackgroundColor{
+    background-color: #f5f5f5;
+}
+#logoSmallScreen{
+    padding-left: 10px;
+    width:150px;
+    height: 30px;
+    margin:10px;
+}
+#DropDownIcon {
+    float: right;
+    width: 33px;
+    height: 25px;
+    margin-top: 5px;
+}
+.header {
+    background-color: white;
+}
+#smallDropDown{
+    float:right;
+    width: 50px;
+    margin: 10px;
+}
+#footertag{
+    padding-top: 35px;
+}
+.review-images{
+    width:90%;
+}
+.footer-main-tag{
+    font-size: 14px;
+    color: #444444;
+}
+.footer-sub-tag{
+    font-size: 12px;
+    color: #444444;
+    padding: 2px;
+}
+.footer-contact-information{
+    font-size: 11px;
+    font-style: normal;
+    color: #444444;
+}
+.footer-contact-images{
+    width:17px;
+    height: 17px;
+    margin-right: 10px;
+}
+.footer-email{
+    font-size: 12px;
+    font-style: normal;
+    color: #444444;
+}
+#footerSignUpScreen{
+    background-color: #EEEEEE;
+    height: 193px;
+}
+.news-letter-text{
+    text-align: center;
+    font-size: 20px;
+    color: #3F8c8c;
+}
+#signUpText{
+    text-align: center;
+    margin-left: 290px;
+    margin-right: 290px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+}
+.sprite-contacticonfw{ background-position: 0 0; width: 12px; height: 12px; }
+.sprite-counterfw{ background-position: 0 -62px; width: 16px; height: 15px; }
+.sprite-email-iconfw{ background-position: 0 -127px; width: 12px; height: 10px; }
+.sprite-facebookfw{ background-position: 0 -187px; width: 34px; height: 36px; }
+.sprite-googleplusfw{ background-position: 0 -273px; width: 34px; height: 36px; }
+.sprite-likefw{ background-position: 0 -359px; width: 32px; height: 32px; }
+.sprite-people1fw{ background-position: 0 -441px; width: 32px; height: 32px; }
+.sprite-pintrestfw{ background-position: 0 -523px; width: 33px; height: 34px; }
+.sprite-small-logofw{ background-position: 0 -607px; width: 33px; height: 33px; }
+.sprite-store1fw{ background-position: 0 -690px; width: 32px; height: 32px; }
+.sprite-threelinesfw{ background-position: 0 -772px; width: 33px; height: 26px; }
+.sprite-twitterfw{ background-position: 0 -848px; width: 33px; height: 34px; }
+
+.sprite-images{
+    background-image: url('../images/sprite-image.png') ;
+    background-repeat: no-repeat;
+    padding: 0 0 13px 34px;
+   display: inline;
+}
+#counter{
+    position: absolute;
+    top: -1px;
+    right: 22px;
+    font-size: 12px;
+    color: white;
+}
+.footer-main-tag:hover,.footer-sub-tag:hover,.footer-contact-information:hover,.footer-email:hover{
+    color: red;
+}
+/*===========================================================================================================*/
+/*// Small screens*/
+@media only screen and (min-width: 320px) and (max-width:414px) {
+    .column, .columns {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #main-image-size {
+        width: 100%;
+        height: 300px;
+        padding-top: 10px;
+        position: relative;
+        text-align: center;
+    }
+    .small-screen-size {
+        text-align: center;
+        height: 290px;
+        width: 130px;
+        background-color: rgba(24,22,22,.40);
+        position: absolute;
+        top: 10px;
+        left: 10%;
+    }
+    .the-online-text-on-transparent-screen {
+        padding-top: 80px;
+        font-size: 12px;
+        color: #FFFFFF;
+        font-family: "Josefin Sans";
+        font-style: normal;
+        text-align: center
+    }
+    .custom-made-text-on-transparent-screen {
+        font-size: 14px;
+        font-weight: bold;
+        color: #FFFFFF;
+        font-family: "Josefin Sans";
+    }
+    .furniture-store-text-on-transparent-screen {
+        font-size: 12px;
+        color: #FFFFFF;
+        display: block;
+        font-family: "Josefin Sans";
+        font-style: normal;
+        text-align: center;
+    }
+
+    #showNowButton {
+        background-color: #535353;
+        width: 100px;
+        height: 30px;
+        border: none;
+        text-align: center;
+        padding-top: 6px;
+        font-family: 'Josefin Sans';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        top: 25px;
+    }
+    .build-your-text {
+        text-align: center;
+        height: 30px;
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        color: #FE4d4d;
+        font-weight: bold;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .designStudioTextAlignment {
+        text-align: center;
+        height: 19px;
+        font-family: "Josefin Sans";
+        font-size: 12px;
+        color: #525252;
+        font-style: italic;
+        padding-bottom: 35px;
+        padding-top: 30px;
+    }
+    #blackBarHeight {
+        height: 225px;
+    }
+    .black-bar {
+        text-align: center;
+        height: 184px;
+        background: #444444;
+        width: 100%;
+
+    }
+
+    .text-on-black-bar {
+        height: 43px;
+        font-size: 11px;
+        color: #FFFFFF;
+        font-family: "Josefin Sans";
+        font-style: italic;
+        padding-top: 25px;
+        text-align: center;
+        padding-left: 1px;
+        padding-bottom: 25%;
+        margin: 10px;
+    }
+    #designNowButton {
+        background-color: #444444;
+        border-color: white;
+        border-radius: 3px;
+        width: 140px;
+        height: 30px;
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    [class*="block-grid-"] {
+        display: block;
+        padding: 0;
+        margin: 0 -0.625em;
+        text-align: center;
+    }
+    .item-region {
+        font-size: 20px;
+    }
+    .text-of-items{
+        font-size: 14px;
+    }
+    .item-price {
+        font-size:12px;
+    }
+    .items-customize-button,.items-shop-now-button{
+        width:auto;
+        left:50px;
+    }
+    .item-text-alignment {
+        margin-top:0;
+    }
+    #footertag {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .get-estimation-button {
+        background-color: #444444;
+        border-color: white;
+        border-radius: 0;
+        width: 200px;
+        left: 7px;
+        margin-left: auto;
+        text-align: center;
+        margin-right: auto;
+        display: block;
+    }
+    #footerLogos{
+        text-align: left;
+        padding-left: 20px;
+    }
+    #leadTimePadding{
+        padding-left: 10px;
+    }
+    #supportpadding{
+        padding-left: 10px;
+    }
+    .signup-screen {
+        text-align: center;
+        height: 125px;
+        width: 320px;
+        background: #f5f5f5;
+        position: absolute;
+        top: 95%;
+        right: 0%;
+        opacity: 20;
+    }
+    .text-on-signup-screen {
+        padding-top: 20px;
+        padding-right: 83px;
+        height: 30px;
+        font-size: 12px;
+        color: #444444;
+        font-family: "Josefin Sans";
+        font-style: normal;
+        text-align: center;
+        padding-left: 10px;
+    }
+    #signupBoxAlignment {
+        text-align: left;
+        width: 267px;
+    }
+    .signup {
+        position: absolute;
+        height: 26px;
+        width: 80px;
+        top: 40px;
+        right: 41px;
+        display: inline;
+        background-color: #D4062E;
+        padding-top: 6px;
+        padding-bottom: 5px;
+        border: none;
+    }
+    #footerDetails{
+        text-align: left;
+        padding-left: 20px;
+        font-family: Myriad Pro;
+        font-size: 13px;
+    }
+    #last-tag-line{
+        margin-top:110px;
+    }
+    .review-images{
+        width:100%;
+    }
+    .user-images {
+        margin-left:20px;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+    .nav-alignment{
+        color: #444444;
+        display: table-row;
+        width: 126px;
+        height: 19px;
+        text-align: left;
+        padding-right: 37px;
+        font-size: 14px;
+        font-style: normal;
+
+    }
+    .top-bar.expanded .title-area {
+        background: white;
+    }
+    .top-bar {
+        overflow: hidden;
+        height: 45px;
+        line-height: 45px;
+        position: relative;
+        background: white;
+        margin-bottom: 0;
+    }
+    #transparentScreenAlignment {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        padding-top: 0;
+    }
+    .top-bar-section ul li > a {
+        display: block;
+        width: 100%;
+        color: white;
+        padding: 12px 0 12px 0;
+        padding-left: 15px;
+        font-size: 0.8125em;
+        font-weight: bold;
+        background: #222222;
+        background-color: rgba(133, 132, 132, 0.8);
+    }
+    .user-comment {
+        margin-top: 83px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 12px;
+        font-style: italic;
+        font-family: myriad pro;
+        color: #006666;
+    }
+    #footerSignUpScreen {
+        background-color: #EEEEEE;
+        height: 160px;
+    }
+    .text-on-signup-screen {
+        padding-top: 20px;
+        height: 30px;
+        font-size: 12px;
+        color: #444444;
+        font-family: "Josefin Sans";
+        font-style: normal;
+        text-align: center;
+
+    }
+    .news-letter-text {
+        text-align: center;
+        font-size: 14px;
+        color: #3F8c8c;
+    }
+    #signUpText {
+        margin-top: 16px;
+        font-size: 9px;
+        margin-left: 19px;
+        margin-right: 0;
+    }
+    #signupAlignment {
+        display: inline;
+    }
+    #signupBoxAlignment {
+        width: 130px;
+        height: 20px;
+        margin-left: 37px;
+        margin-top: 78px;
+        font-size: 10px;
+    }
+
+    .signup {
+        height: 20px;
+        width: 60px;
+        top: 78px;
+        right: 38px;
+        background-color: #FF4d4d;
+        padding-top: 1px;
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    #last-tag-line {
+        margin-top: 0;
+    }
+    #rightsReservedLine {
+        font-size: 10px;
+    }
+}
+
+
+/* Define mobile styles */
+@media only screen and (min-width: 415px) and (max-width: 1023px){
+    #transparentScreenAlignment {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        margin-top: 0;
+        padding: 0;
+    }
+    .top-bar.expanded .title-area {
+        background: white;
+    }
+    .top-bar {
+        overflow: hidden;
+        height: 45px;
+        line-height: 45px;
+        position: relative;
+        background: white;
+        margin-bottom: 0;
+    }
+
+    .top-bar-section ul li > a {
+        display: block;
+        width: 100%;
+        color: white;
+        padding: 12px 0 12px 0;
+        padding-left: 15px;
+        font-size: 0.8125em;
+        font-weight: bold;
+        background: #222222;
+        background-color: rgba(133, 132, 132, 0.8);
+    }
+
+}
+@media only screen and (max-width: 40em) {
+    #rightLogos {
+        padding-top: 2px;
+        float: right;
+    }
+
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/*// Medium screens*/
+@media only screen and (width: 1024px) {
+    .signup {
+        position: absolute;
+        height: 30px;
+        width: 134px;
+        top: 0px;
+        right: 200px;
+        display: inline;
+        background-color: #f66f6f;
+        padding-top: 4px;
+        padding-bottom: 5px;
+        border: none;
+    }
+    #signUpText {
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 20px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .nav-alignment {
+        color: #444444;
+        display: inline;
+        width: 126px;
+        height: 19px;
+        text-align: left;
+        padding-right: 5px;
+        font-size: 14px;
+        font-style: normal;
+    }
+    #navAlignment{
+        color: #444444;
+        display: inline;
+        width: 126px;
+        height: 19px;
+        text-align: left;
+        padding-right: 15px;
+        font-size: 14px;
+        font-style: normal;
+        padding-left: 14px;
+    }
+    #nav-end{
+        padding: 0;
+    }
+    .items-customize-button {
+        background-color: #444444;
+        border-color: white;
+        border-radius: 0;
+        width: 191px;
+        left: 30px;
+    }
+    .text-of-items {
+
+        height: 43px;
+
+        font-size: 14px;
+        color: #000000;
+
+        font-family: 'Josefin Sans';
+        font-style: italic;
+
+        text-align: center;
+
+        padding-bottom: 20px;
+        margin: 5px;
+
+    }
+    .item-price {
+        padding-top: 67px;
+        padding-left: 138px;
+        font-style: italic;
+        font-weight: bold;
+        padding-bottom: 40px;
+        color: #FE4d4d;
+    }
+    .items-customize-button {
+        background-color: #444444;
+        border-color: white;
+        border-radius: 0;
+        width: 191px;
+        left: 30px;
+    }
+
+    .get-estimation-button {
+        background-color: #444444;
+        border-color: white;
+        border-radius: 0;
+        width: 230px;
+        left: 91px;
+    }
+    .item-region {
+        height: 84px;
+        font-size: 24px;
+        color: #545454;
+        font-family: 'Josefin Sans';
+        font-weight: bold;
+        padding-top: 40px;
+        text-align: center;
+        border-bottom: solid 1px #444444;
+        padding-bottom: 20px;
+        margin-left: 150px;
+        margin-right: 115px;
+    }
+    #supportpadding{
+        padding-left: 0;
+    }
+    #leadTimePadding{
+        padding-left: 0;
+    }
+    #wardobeHeight{
+        height:230px;
+    }
+    .signup-screen {
+        text-align: center;
+        height: 163px;
+        width: 344px;
+        background: #f5f5f5;
+        position: absolute;
+        top: 50px;
+        right: 1%;
+        opacity: 20;
+    }
+    #signupBoxAlignment {
+        text-align: left;
+        width: 289px;
+    }
+    #noSpam {
+        padding-top: 67px;
+        text-align: left;
+        padding-left: 4px;
+        color: #888a8c;
+        font-size: 11px;
+    }
+    .review-images{
+        width:100%;
+    }
+
+}
